@@ -1,25 +1,35 @@
-# Final Project and Deployment
+# Reale Online Healthcare Website
+Reale Online Healthcare is a responsive web application that allows users to consult professional doctors from the comfort of their home. It provides detailed information about services, available doctors, and allows users to book virtual appointments.
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+## Live Preview
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+**[View Live Site on Vercel](https://feb-2025-final-project-and-deployment-joe-muchiri25.vercel.app)**  
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+## 📁 Project Structure
 
-## Tasks
+/project-root
+├── index.html
+├── style.css
+├── script.js
+└── /images
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+##  Features
+- **Hero Section** with call-to-action buttons.
+- **Services Offered**: Dermatology, Psychology, Nutrition, and Gynecology.
+- **Doctors Profiles** with modals for detailed bio.
+- **Meeting Booking Form** with validation and real-time feedback.
+- Fully responsive with **Bootstrap 5**.
+- Contact details and social media links in the footer.
 
-Good luck and happy coding! 🚀💻
+## Technologies Used
+- **HTML5** & **CSS3**
+- **Bootstrap 5.3**
+- **JavaScript **
+- **Bootstrap Icons**
+- **Hosted on (https://feb-2025-final-project-and-deployment-joe-muchiri25.vercel.app))**
+
+
+
+
+
+
