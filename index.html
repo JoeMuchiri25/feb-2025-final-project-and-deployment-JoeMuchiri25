@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JavaScript (Popper.js included) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Reale Online Healthcare</title>
+
+</head>
+
+<body>
+  <nav class="navbar fixed-top justify-content-between navbar-dark navbar-expand-sm px-2 bg-success" id='navspy'>
+    <div>
+      <div class='navbar-brand'><img src='/images/logo.png' style="width: 100px;" alt="" class='img-fluid' /></div>
+    </div>
+    <button class="navbar-toggler" data-bs-toggle='collapse' data-bs-target='#navs'>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse p-2 px-3 pe-4 justify-content-end navbar-collapse" id='navs'>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#hero" class="nav-link">Home</a>
+        </li>
+        <li className="nav-item">
+          <a href="#services" class="nav-link me-2">Services</a>
+
+        </li>
+        <li className="nav-item">
+          <a href="#doctors" class="nav-link me-2">Doctors</a>
+
+        </li>
+        <li className="nav-item">
+          <a href="#meeting" class="nav-link me-2">Contact</a>
+
+        </li>
+        <li className="nav-item">
+          <a href="#consultation" class="nav-link me-2">Consultation</a>
+
+        </li>
+        <!-- <li class="nav-item"><i class="bi bi-circle-half nav-link"></i></li> -->
+      </ul>
+      <button class="btn  btn-warning px-5">
+        <a href="#meeting" class="text-dark" style="text-decoration:  none;"> Book a Meeting</a>
+      </button>
+    </div>
+
+  </nav>
+
+
+  <!-- hero section -->
+  <div class="container-fluid mt-5 pt-4 row border-0" id="hero">
+    <div class="col-sm-12 col-md-6 col-lg-6 container justify-content-center align-content-center p-5">
+      <div class="container containers align-content-center rounded-4 shadow p-3">
+        <h2 class='mb-4'>Consult Your Doctor From Home.</h2>
+        <p>Choose the best online therapy services, begin your free assessment and speak to a licensed therapist. Help
+          is at your fingertips.</p>
+        <div class="mt-5">
+          <button class="btn  btn-success me-3 px-4"> <a href="#meeting" class="text-light"
+              style="text-decoration: none;">Book a Meeting</a></button>
+          <span>
+            <a href='#consultation' style="text-decoration: none;">How it Works</a></span>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 align-content-center justify-content-end">
+      <div class="container-fluid  d-flex justify-content-center">
+        <img src='/images/hero.png' alt="" class='img-fluid' />
+      </div>
+
+    </div>
+  </div>
+
+  <!-- services -->
+  <div class='container-fluid mt-5 pt-4' id="services">
+    <h3 class="text-center text-primary my-5">Services We Offer</h3>
+    <div class="container-fluid  row justify-content-center  p-5" id='accordation'>
+      <div class="col-sm-8 col-md-6 col-lg-3  p-2">
+        <img src='/images/DR.Muchiriprofile.png' style="width: 100px;" alt=""
+          class='rounded-circle me-4 img-fluid' /><span class="text-primary">Dermatology</span>
+        <div class="d-grid">
+          <button type="button" class="btn btn-success mx-3 px-5" data-bs-toggle="collapse" data-bs-target="#demo1">Read
+            More</button>
+        </div>
+
+        <div id="demo1" class="collapse px-4" data-bs-parent='#accordation'>
+          <p>Our Dermatology specialists at Reale are dedicated to helping you achieve and maintain healthy, beautiful
+            skin. We offer comprehensive dermatological care, including the diagnosis and treatment of skin conditions,
+            cosmetic procedures, and personalized skincare plans. Whether you're dealing with acne, eczema, or seeking
+            anti-aging treatments, our experienced professionals provide effective solutions tailored to your skin's
+            unique needs.</p>
+          <div class="text-center"> <button class="btn btn-primary"><a href="#meeting" class='text-light'
+                style='text-decoration: none;'>Consult Dermatologist</a></button></div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-6 col-lg-3  p-2">
+        <img src='/images/joyceprof.png' alt="" style='width: 100px;' class='rounded-circle me-4 img-fluid' /> <span
+          class="text-primary">Nutritional Counselling</span>
+        <div class="d-grid">
+          <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo2">Read
+            More</button>
+        </div>
+        <div class="collapse px-4" id='demo2' data-bs-parent='#accordation'>
+          <p>At REALE, we believe in the power of nutrition to enhance your overall health and well-being. Our
+            Nutritional Counseling service provides personalized dietary advice and plans tailored to meet your unique
+            health goals and medical needs. Whether you want to manage a chronic condition, achieve weight loss, or
+            improve your overall diet, our registered dietitians offer expert guidance and support to help you make
+            informed, healthy choices. With our comprehensive approach to nutrition, we empower you to lead a healthier,
+            happier life.</p>
+          <div class="text-center"> <button class="btn btn-primary"><a href="#meeting" class='text-light'
+                style='text-decoration: none;'>Consult the Doctor</a></button></div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-6 col-lg-3  p-2">
+        <img src='/images/borehprof.png' alt="" style='width: 100px;' class='rounded-circle me-4 img-fluid' /> <span
+          class="text-primary">Psychology</span>
+        <div class="d-grid">
+          <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo3">Read
+            More</button>
+          <div class="collapse px-4" id='demo3' data-bs-parent='#accordation'>
+            <p>At REALE, we understand the importance of mental health and are committed to offering expert
+              Psychological services. Our licensed psychologists and therapists provide therapy and counseling for
+              various emotional and psychological issues, including anxiety, depression, stress, and relationship
+              challenges. We create a safe and supportive environment where you can explore your feelings and work
+              towards achieving mental well-being and resilience.</p>
+            <div class="text-center"> <button class="btn btn-primary"><a href="#meeting" class='text-light'
+                  style='text-decoration: none;'>Consult Psychologist</a></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-6 col-lg-3 p-2">
+        <img src='/images/DR.lagatprofile.png' alt="" style='width: 100px;' class='me-4 img-fluid' /> <span
+          class="text-primary">Gynecology</span>
+        <div class="d-grid">
+          <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo4">Read
+            More</button>
+        </div>
+        <div class="collapse px-4" id='demo4' data-bs-parent='#accordation'>
+          <p>Our expert Gynecology team at REALE is dedicated to providing comprehensive care for women's health. We
+            offer a wide range of services, including routine check-ups, prenatal and postnatal care, and advanced
+            treatments for gynecological conditions. Our compassionate and experienced professionals ensure personalized
+            care tailored to meet your unique needs, promoting optimal health and well-being at every stage of life..
+          </p>
+          <div class="text-center"> <button class="btn btn-primary"><a href="#consultation" class='text-light'
+                style='text-decoration: none;'>Consult Gynecologist</a></button></div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- consultation -->
+  <div class="container-fluid mt-5 row border-0" id="consultation">
+    <div class="col-sm-12 col-md-12 col-lg-7 container containers">
+      <img src='/images/consultation.jpg' alt="" class='img-fluid' />
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-5 container align-content-center  justify-content-center p-5">
+      <div class="container containers bg-light align-content-center rounded-5 shadow py-4">
+        <h2 class='my-3'>Consultation with our professional doctors.</h2>
+        <p>Our doctors bring years of experience and specialized knowledge to the table, ensuring you receive the
+          highest quality of care. We understand that every individual is unique. Our consultations are tailored to your
+          specific needs, taking into account your medical history, lifestyle, and preferences.</p>
+        <div class="d-grid">
+          <button class="btn btn-success px-5"> <a href="#meeting" style="text-decoration: none;"
+              class="text-light">Book a Meeting</a>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Doctors -->
+  <div class="container-fluid mt-5  px-5 pt-4 pb-4" id="doctors">
+    <h2 class="text-center text-primary">Our Doctors</h2>
+    <div class="container-fluid row">
+
+      <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+        <div class="card shadow-sm p-2 ">
+          <div class="card-img-top">
+            <img src='/images/Dr.Boreh.jpg' alt="" />
+          </div>
+          <div class="card-title">
+            <h5>Dr.Boreh <span class="text-info">(Psychologist)</span></h5>
+          </div>
+          <div class="card-text">Help with anxiety, eating disorders, panic attacks, and medications to improve mental
+            health and well-being.</div>
+          <div class="card-link my-2 d-grid"><button class="btn btn-success btn-block " data-bs-toggle='modal'
+              data-bs-target='#myModal1'>See Profile</button></div>
+          <div class="modal" id='myModal1'>
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">About Dr.Muchiri</h4>
+                  <button class="btn-close" data-bs-dismiss='modal'></button>
+                </div>
+                <div class="modal-body">
+                  <p>Dr. Muchiri is a highly skilled dermatologist with a passion for providing top-notch care to his
+                    patients. With a wealth of experience in treating a wide range of skin conditions, Dr. Muchiri is
+                    dedicated to helping his patients achieve healthy and radiant skin. His expertise includes acne
+                    treatment, eczema management, psoriasis care, and skin cancer screenings. Dr. Muchiri stays abreast
+                    of the latest advancements in dermatology to ensure that his patients receive the most effective and
+                    up-to-date treatments. Known for his compassionate and patient-centered approach, Dr. Muchiri takes
+                    the time to listen to his patients' concerns and develops personalized treatment plans to meet their
+                    unique needs. Outside of his practice, he is actively involved in community outreach programs to
+                    promote skin health awareness.</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss='modal'>Close</button>
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+      <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+        <div class="card shadow-sm p-2 ">
+          <div class="card-img-top">
+            <img src='/images/Muchiri.jpg' alt="" />
+          </div>
+          <div class="card-title">
+            <h5>Dr.Muchiri <span class="text-info">(Dermatologist)</span></h5>
+          </div>
+          <div class="card-text">Experienced in diagnosing and treating a wide range of dermatological conditions with
+            personalized and expert care.</div>
+          <div class="card-link my-2 d-grid"> <button class="btn btn-success btn-block" data-bs-toggle='modal'
+              data-bs-target='#myModal1'><a href="#" style='text-decoration: none' class='text-light'>See
+                Profile</a></button>
+          </div>
+          <div class="modal" id='myModal2'>
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">About Dr.Muchiri</h4>
+                  <button class="btn-close" data-bs-dismiss='modal'></button>
+                </div>
+                <div class="modal-body">
+                  <p>Dr. Muchiri is a highly skilled dermatologist dedicated to providing exceptional care to his
+                    patients. With years of experience in diagnosing and treating various skin conditions, Dr. Muchiri
+                    combines his extensive medical knowledge with a compassionate approach to ensure the best outcomes
+                    for his patients.
+                    He specializes in a wide range of dermatological services, including acne treatment, eczema
+                    management, psoriasis care, and skin cancer screenings. Dr. Muchiri is committed to staying updated
+                    with the latest advancements in dermatology to offer cutting-edge treatments and personalized care
+                    plans.
+                    In addition to his clinical expertise, Dr. Muchiri is known for his friendly demeanor and ability to
+                    make patients feel comfortable and well-informed about their treatment options. His passion for
+                    dermatology and dedication to patient care make him a trusted and respected member of the healthcare
+                    community.</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss='modal'>Close</button>
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+        <div class="card p-2 shadow-sm">
+          <div class="card-img-top">
+            <img src='/images/joyce.jpg' alt="" class="img-fluid" />
+          </div>
+          <div class="card-title">
+            <h5>Dr.Joyce <span class="text-info">(Nutritional Councellor)</span></h5>
+          </div>
+          <div class="card-text">Expert nutritional counseling for optimal health and well-being through balanced diet
+            plans tailored to individual needs.</div>
+          <div class="card-link my-2 d-grid"> <button class="btn btn-success btn-block"><a href="#"
+                style='text-decoration: none' class='text-light' data-bs-toggle='modal' data-bs-target='#myModal3'>See
+                Profile</a></button></div>
+          <div class="modal" id='myModal3'>
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">About Dr.Joyce</h4>
+                  <button class="btn-close" data-bs-dismiss='modal'></button>
+                </div>
+                <div class="modal-body">
+                  <p>Dr. Joyce is a distinguished expert in nutritional counseling 🥗, dedicated to helping individuals
+                    achieve optimal health 💪 through balanced and personalized nutrition plans. With a wealth of
+                    experience in the field, Dr. Joyce specializes in guiding patients to make informed dietary choices
+                    that support their overall well-being and specific health goals 👌.
+
+                    She offers a range of services, including weight management ✔✔, dietary planning for chronic
+                    diseases 🤒, sports nutrition, and general nutritional assessments. Dr. Joyce is committed to using
+                    the latest scientific research to provide evidence-based advice tailored to each individual's needs
+                    and lifestyle.
+
+                    Known for her empathetic and supportive approach, Dr. Joyce ensures that her patients feel
+                    understood ❣🤗 and motivated throughout their journey to better health. Her ability to translate
+                    complex nutritional information into practical, everyday advice has earned her the trust and respect
+                    of her patients.
+
+                    Beyond her practice, Dr. Joyce is passionate about community health education and frequently
+                    conducts workshops and seminars on various nutrition-related topics. In her free time, she enjoys
+                    experimenting with healthy recipes , practicing yoga 🧘‍♀️, and spending time outdoors.</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss='modal'>Close</button>
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 col-sm-12 p-2">
+        <div class="card p-2 shadow-sm ">
+          <div class="card-img-top">
+            <img src='/images/Dr.lagat.jpg' alt="" class="img-fluid" />
+          </div>
+          <div class="card-title">
+            <h5>Dr.Lagat <span class="text-info">(Gynecologist)</span></h5>
+          </div>
+          <div class="card-text">Comprehensive gynecological care for women's health and well-being, ensuring
+            personalized treatment through all life stag</div>
+          <div class="card-link my-2 d-grid"> <button class="btn btn-success btn-block"><a href="#"
+                style='text-decoration: none' class='text-light' data-bs-toggle='modal' data-bs-target='#myModal4'>See
+                Profile</a></button></div>
+
+          <div class="modal" id='myModal4'>
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">About Dr.Lagat</h4>
+                  <button class="btn-close" data-bs-dismiss='modal'></button>
+                </div>
+                <div class="modal-body">
+                  <p>Dr. Lagat is a highly respected gynecologist dedicated to providing comprehensive and compassionate
+                    care to women of all ages. With extensive experience in the field of gynecology, Dr. Lagat
+                    specializes in a wide range of services, including prenatal care, fertility counseling, menstrual
+                    disorder management, and menopausal care.
+
+                    Dr. Lagat is committed to empowering women with the knowledge and support they need to make informed
+                    decisions about their health. He employs the latest medical advancements and evidence-based
+                    practices to ensure the best possible outcomes for his patients.
+
+                    Known for his attentive and patient-centered approach, Dr. Lagat takes the time to listen to his
+                    patients' concerns and tailor treatment plans to meet their individual needs. His warm and
+                    professional demeanor helps create a comfortable and trusting environment for all his patients.
+
+                    Outside the clinic, Dr. Lagat is actively involved in community health initiatives and educational
+                    programs aimed at promoting women's health awareness. He enjoys spending quality time with his
+                    family and exploring the great outdoors.</p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss='modal'>Close</button>
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- book meeting -->
+  <div class='container-fluid mt-5 pt-4' id="meeting">
+
+    <h2 class="text-center text-primary">Book a Meeting</h2>
+    <div class="container-fluid row  p-4 border-0">
+      <div class="container col-lg-6 col-md-10 col-sm-12 rounded-4 shadow">
+        <form class='px-2 py-3 needs-validation' id="myForm">
+
+          <label for="name" class="form-label my-2">Full Name:</label>
+          <input type="text" class="form-control" id='name' required />
+          <label for="dob" class="form-label my-2">Date of Birth:</label>
+          <input type="date" class="form-control" required />
+          <label for="gender" class="form-label my-2">Gender:</label>
+          <select name="gender" id="gender" class="form-control">
+            <option value="">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <option value="prefer_not_to_say">Prefer Not to Say</option>
+          </select>
+          <label for="email" class="form-label my-2">Email Address:</label>
+          <input type="text" class="form-control" required />
+          <label for="number" class="form-label my-2">Phone Number:</label>
+          <input type="text" class="form-control" id='number' required />
+          <label for="contact_method" class="form-label my-2">Preferred Contact Method:</label>
+          <select name="contact_method" id="contact_method" class="form-control" required>
+            <option value="">Select Preffered Method</option>
+            <option value="email">Email</option>
+            <option value="phone_call">Phone Call</option>
+            <option value="sms">Text Message</option>
+            <option value="whatsapp">WhatsApp</option>
+            <option value="telegram">Telegram</option>
+          </select>
+          <label for="current_medication" class="form-label my-2">Current Medications:</label>
+          <textarea name="current_medication" id="current_medication" class="form-control" required></textarea>
+          <label for="condition" class="form-label my-2">Existing Medical Conditions:</label>
+          <textarea name="condition" id="condition" class="form-control" required></textarea>
+          <label for="allergies" class="form-label my-2">Allergies:</label>
+          <input type="text" class="form-control" id='allergies' required />
+          <label for="doctor" class="form-label my-2">Doctor You want to See:</label>
+          <select name="doctor" id="doctor" class="form-control">
+            <option value="">Select Doctor</option>
+            <option value="psychologist">Psychologist</option>
+            <option value="dermatologist">Dermatologist</option>
+            <option value="gynecologist">Gynecologist</option>
+            <option value="nutritional_councellor">Nutritional Councellor</option>
+          </select>
+          <label for="appointment" class="form-label my-3">Preferred Appointment Date</label>
+          <input type="date" class="form-control" required />
+          <label for="time" class="form-label my-3">Time:</label>
+          <input type="time" class="form-control" id='time' required />
+          <label for="reason_for_appointment" class="form-label my-3">Reason for Appointment:</label>
+          <textarea name="reason_for_appointment" id="reason_for_appointment" class="form-control" required></textarea>
+          <label for="insurance_info" class="form-label my-3">Insurance Information:</label>
+          <textarea name="insurance_info" id="insurance_info" class="form-control" required></textarea>
+          <input type="checkbox" name="consent" id="consent" class='my-3' required /> <span>Consent to Share
+            Information.</span> <br />
+          <input type="checkbox" name="policy" id="policy" class='my-3' required /> <span>Privacy Policy
+            Agreement.</span> <br />
+          <div class="text-center">
+            <button class="btn btn-success my-4 px-5">Book Appointment</button>
+          </div>
+          <p id="successMessage" class="text-success text-center mt-3" style="display: none;">✅ Submission Successful!
+          </p>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="bg-success text-white py-2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-sm-4 text-center">
+          <h5>Contact Information</h5>
+          <p>Address: Reale, Eldoret City, KE 45678</p>
+          <p>Phone: (254) 456-7890</p>
+          <p>Email: reale@healthcare.com</p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-4 text-center">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white" style='text-decoration: none;'>Home</a></li>
+            <li><a href="#" class="text-white" style='text-decoration: none;'>About Us</a></li>
+            <li><a href="#" class="text-white" style='text-decoration: none;'>Doctors</a></li>
+            <li><a href="#" class="text-white" style='text-decoration: none;'>Services</a></li>
+            <li><a href="#" class="text-white" style='text-decoration: none;'>Contact Us</a></li>
+            <li><a href="#" class="text-white" style='text-decoration: none;'>Book a Meeting</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-4 text-center">
+          <h5>Legal</h5>
+          <ul class="list-unstyled">
+            <li><a href="/privacy-policy" class="text-white" style='text-decoration: none;'>Privacy Policy</a></li>
+            <li><a href="/terms-of-service" class="text-white" style='text-decoration: none;'>Terms of Service</a></li>
+            <li><a href="/disclaimer" class="text-white" style='text-decoration: none;'>Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-12 text-center">
+          <p>© 2025 Healthcare. All rights reserved.</p>
+          <div className="container-fluid">
+            <a href="https://facebook.com" class="text-white me-2"><i class="bi bi-facebook"></i> Facebook</i></a>
+            <a href="https://twitter.com" class="text-white me-2"><i class="bi bi-twitter-x"></i> Twitter</i></a>
+            <a href="https://linkedin.com" class="text-white me-2"><i class="bi bi-linkedin"></i> LinkedIn</i></a>
+            <a href="https://instagram.com" class="text-white me-3"><i class="bi bi-instagram"></i> Instagram</i></a>
+            <a href="https://tiktok.com" class="text-white"><i class="bi bi-tiktok"></i></i> Tiktok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.containers:hover {
+    animation: float 1s infinite ease-in-out;
+}
+.is-invalid { border: 2px solid red; }
+.is-valid { border: 2px solid green; }
